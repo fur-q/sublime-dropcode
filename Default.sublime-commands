@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "Dropcode: Paste whole file",
+    "command": "dropcode"
+  },
+  {
+    "caption": "Dropcode: Paste selection",
+    "command": "dropcode",
+    "args":    { "sel": true }
+  }
+]

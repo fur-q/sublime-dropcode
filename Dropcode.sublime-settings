@@ -1,0 +1,6 @@
+{
+  // set paste to private
+  "private":  false,
+  // open URL in browser
+  "open_url": false
+}

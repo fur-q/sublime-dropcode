@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+alt+d"], "command": "dropcode" },
+  { "keys": ["ctrl+alt+shift+d"], "command": "dropcode", "args": {"sel": true} }
+]

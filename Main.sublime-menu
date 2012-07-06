@@ -1,0 +1,71 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {"id": "dropcode", "caption": "Dropcode", "children":
+        [
+          {"command": "dropcode", "caption": "Paste entire file"},
+          {"command": "dropcode", "args": { "sel": true }, "caption": "Paste current selection"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "id": "package-settings",
+        "children":
+        [
+          {
+          "caption": "Dropcode",
+          "children":
+            [
+              {
+                "command": "open_file", "args":
+                {
+                  "file": "${packages}/Dropcode/Dropcode.sublime-settings"
+                },
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file", "args":
+                {
+                  "file": "${packages}/User/Dropcode.sublime-settings"
+                },
+                "caption": "Settings – User"
+              },
+              { "caption": "-" },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/Dropcode/Default (OSX).sublime-keymap",
+                  "platform": "OSX"
+                },
+                "caption": "Key Bindings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/Dropcode/Default (Linux).sublime-keymap",
+                  "platform": "Linux"
+                },
+                "caption": "Key Bindings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/Dropcode/Default (Windows).sublime-keymap",
+                  "platform": "Windows"
+                },
+                "caption": "Key Bindings – Default"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
